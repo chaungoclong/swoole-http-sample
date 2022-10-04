@@ -1,0 +1,30 @@
+{
+  "name": "chaungoclong/swoole-http-sample",
+  "description": "Swoole http sample",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Chaungoclong\\SwooleHttpSample\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Dragon",
+      "email": "longcn@beetsoft.com.vn"
+    }
+  ],
+  "require-dev": {
+    "openswoole/ide-helper": "@dev"
+  },
+  "require": {
+    "beetsoftweb/bs-base-api-lite": "dev-main",
+    "ext-json": "*"
+  },
+  "repositories": [
+    {
+      "type": "github",
+      "url": "https://github.com/beetsoftweb/bs-base-api-lite",
+      "no-api": true
+    }
+  ]
+}
